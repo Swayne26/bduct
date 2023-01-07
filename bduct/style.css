@@ -1,0 +1,27 @@
+
+body{
+
+    min-height: 100vh;
+    min-width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./images/bductbg.png') center/cover no-repeat fixed;
+    position: relative;
+   background-position: center center;
+   
+     
+}
+.form-container{border: 2px solid white; padding: 30px; margin-top: 20vh;
+box-shadow: -1px 4px 18px 14px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -1px 4px 18px 14px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -1px 4px 18px 14px rgba(0, 0, 0, 0.65);
+}
+form{
+    color: whitesmoke;
+}
+.error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+
